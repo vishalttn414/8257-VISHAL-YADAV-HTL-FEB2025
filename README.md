@@ -9,6 +9,10 @@ Question3: Read the title and description property from the current page and dis
 ![image](https://github.com/user-attachments/assets/407dbae6-d967-4df8-85eb-01c4f796beff)
 ![image](https://github.com/user-attachments/assets/c30e0caf-8e48-4a08-9d28-5f5e54bfee86)
 
+Question4: Write a Sightly script that checks if a variable named isLoggedIn is true. If isLoggedIn is true, display the message "Welcome back!" Otherwise, display the message "Please log in to continue.
+![image](https://github.com/user-attachments/assets/b7a8ef0e-1615-496f-8a9d-a61fce7a6466)
+
+
 
 
 
