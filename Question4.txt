@@ -1,0 +1,23 @@
+Question4 :Write a Sightly script that checks if a variable named isLoggedIn is true. If isLoggedIn is true, display the message "Welcome back!" Otherwise, display the message "Please log in to continue".
+Answer4:   
+ <!DOCTYPE html>
+        <html data-sly-use.logic="logic.js">
+        <head>
+            <title>${currentPage.title}</title>
+            <meta charset="utf-8">
+        </head>
+        <body>
+        <sly data-sly-test="${logic.isLoggedIn}">
+            <p>Welcome back!</p>
+        </sly>
+        <sly data-sly-test="${!logic.isLoggedIn}">
+            <p>Please log in to continue.</p>
+        </sly>
+        </body>
+    </html>
+
+logic.js
+
+use(function(){
+    return {isLoggedIn:true};
+});
