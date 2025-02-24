@@ -1,0 +1,20 @@
+Question1: Print current time.
+Answer1:  
+<!DOCTYPE html>
+      <html data-sly-use.logic="logic.js">
+      <head>
+          <title>${currentPage.title}</title>
+          <meta charset="utf-8">
+      </head>
+      <body>
+      <p>${logic.currentTime}</p>
+      </body>
+</html>
+
+logic.js
+use(function () {
+    var date = new Date();
+    return {
+        currentTime: date.toLocaleString()
+    };
+});
