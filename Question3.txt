@@ -1,0 +1,12 @@
+Question3:Read the title and description property from the current page and display it as title+description .
+Answer3:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>${currentPage.title}</title>
+    <meta charset="utf-8">
+</head>
+<body>
+   <p>${currentPage.title}+ ${currentPage.description}</p>
+</body>
+</html>
