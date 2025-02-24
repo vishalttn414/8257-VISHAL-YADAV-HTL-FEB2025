@@ -1,0 +1,15 @@
+Question2:Write a Sightly template named pageTitleTemplate that takes a single parameter title and renders it within a <h1> tag.
+Answer2:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Page Title</title> 
+    <meta charset="utf-8">
+</head>
+<body>
+   <template data-sly-template.pageTitleTemplate="${@ title}">
+        <h1>${title}</h1>
+    </template>
+    <sly data-sly-call="${pageTitleTemplate @ title='This is my Page'}"/>
+</body>
+</html>
