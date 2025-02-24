@@ -1,0 +1,26 @@
+Question5: Given an array named colors containing three colors red, brown, and black. write a Sightly script to loop through the array and display each color 
+within an unordered list (<ul>).
+Answer5:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Colors List</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <sly data-sly-use.colorData="logic.js"/>
+    <ul>
+        <li data-sly-repeat.color="${colorData.colors}">${color}</li>
+    </ul>
+
+</body>
+</html>
+
+logic.js
+
+use(function () {
+    return {
+        colors: ["red", "brown", "black"]
+    };
+});
+
