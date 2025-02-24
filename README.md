@@ -12,6 +12,9 @@ Question3: Read the title and description property from the current page and dis
 Question4: Write a Sightly script that checks if a variable named isLoggedIn is true. If isLoggedIn is true, display the message "Welcome back!" Otherwise, display the message "Please log in to continue.
 ![image](https://github.com/user-attachments/assets/b7a8ef0e-1615-496f-8a9d-a61fce7a6466)
 
+![image](https://github.com/user-attachments/assets/af31ca34-f66d-4fbf-a799-e3b5b3614c83)
+
+
 Question5:Given an array named colors containing three colors red, brown, and black. write a Sightly script to loop through the array and display each color within an unordered list (<ul>).
 ![image](https://github.com/user-attachments/assets/be1cc9e4-942e-4a54-84a7-70888c4bb292)
 
